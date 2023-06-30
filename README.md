@@ -9,6 +9,8 @@ O projeto possui:
 
 3 widgets:
 - Checkin/checkout: Usuário vincula um apartamento a uma vaga no estacionamento (ckeckin) ou retiro esse vínculo (checkout).
+![alt text](https://github.com/agraronycley/Estacionamento/blob/main/img/check.png)
+
 - Registro de Movimentação: Usuário cadastra uma movimentação no estacionamento (entrada/saída).
 - Status do estacionamento: Relatório em forma de tabela que exibe informações sobres as vagas do estacionamento.
 
