@@ -1,5 +1,6 @@
-var usuario_fluig = 'ronycley@bitsolucoes.info';
-var senha_fluig = 'Mrrm!@4mrrm.20';
+var usuario_fluig = '';
+var senha_fluig = '';
+var cod_fichario = '';
 
 $(function () {
 	util.layout();
@@ -136,7 +137,7 @@ function atualizaVaga(vaga,ultima_mov,data_ultima_mov) {
 	xmlAnexo += '         <companyId>1</companyId>';
     xmlAnexo += '         <username>'+usuario_fluig+'</username>';
     xmlAnexo += '         <password>'+senha_fluig+'</password>';
-    xmlAnexo += '         <cardId>33038</cardId>';
+    xmlAnexo += '         <cardId>'+cod_fichario+'</cardId>';
     xmlAnexo += '        <cardData>';
 	xmlAnexo += '        	<item><field>ultima_mov___'+vaga+'</field><value>'+ultima_mov+'</value></item>';
 	xmlAnexo += '        	<item><field>data_ultima_mov___'+vaga+'</field><value>'+data_ultima_mov+'</value></item>';
