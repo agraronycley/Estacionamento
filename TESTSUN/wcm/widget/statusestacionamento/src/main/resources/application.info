@@ -1,0 +1,17 @@
+application.type=widget
+application.code=statusestacionamento
+application.title=statusestacionamento
+application.description=statusestacionamento
+application.category=SYSTEM
+application.renderer=freemarker
+developer.code=DESKTOP-VO3MRTN
+developer.name=ronyc
+developer.url=http://www.fluig.com
+application.uiwidget=true
+application.mobileapp=false
+application.version=${build.version}-${build.revision}
+view.file=view.ftl
+edit.file=edit.ftl
+locale.file.base.name=statusestacionamento
+application.resource.js.1=/resources/js/statusestacionamento.js
+application.resource.css.2=/resources/css/statusestacionamento.css
